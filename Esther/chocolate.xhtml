@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Chocolate</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fef9f4;
+        color: #333333;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        gap: 120px;
+      }
+
+      h1 {
+        color: #b94e48;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+      }
+
+      ol {
+        font-weight: bold;
+        margin-left: 30px;
+      }
+
+      ul {
+        font-weight: normal;
+        margin-left: 20px;
+        list-style-type: square;
+        color: #555555;
+      }
+
+      li {
+        margin-bottom: 10px;
+        padding: 5px;
+        transition: all 0.3s ease;
+      }
+
+      li:hover {
+        background-color: #fff0e6;
+        transform: translateX(10px);
+        border-radius: 5px;
+      }
+
+      .rating {
+        color: #ffd700;
+        margin-left: 10px;
+      }
+
+      .description {
+        font-size: 0.9em;
+        font-style: italic;
+        color: #666;
+        margin-top: 5px;
+      }
+      .banner{
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 100%;
+        max-width:500px;
+        gap: 10px;
+        border-radius: 50px;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <div class="left">
+        <h1>Chocolates</h1>
+        <img src="chocolate.jpg" alt="chocolate" width="550"  class="banner"></img>
+    </div>
+    <div class="right">
+        <ol>
+            <li>Dairy Milk
+                <span class="rating">★★★★★</span>
+                <div class="description">Smooth and creamy milk chocolate.</div>
+            </li>
+            <li>Ferrero Rocher
+                <span class="rating">★★★★★</span>
+                <div class="description">Hazelnut chocolate with crispy wafer.</div>
+            </li>
+            <li>KitKat
+                <span class="rating">★★★★★</span>
+                <div class="description">Crispy wafer fingers with milk chocolate.</div>
+            </li>
+            <li>Toblerone
+                <span class="rating">★★★★★</span>
+                <div class="description">Swiss chocolate with honey and almond nougat.</div>
+            </li>
+        </ol>
+    </div>
+  </body>
+</html>
